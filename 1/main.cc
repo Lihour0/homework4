@@ -52,7 +52,7 @@ template <class T> void findQuadraticRoot(T a, T b, T c)
 int main()
 {
     float a, b, c;
-    std::cout << "Enter the coefficients a, b and c: ";
+    std::cout << "Ex: x^2 + 2x - 1 \n a = 1, b = 2, c = -1\n Enter the coefficients a, b and c respectively: ";
 
     while (!(std::cin >> a >> b >> c))
     {

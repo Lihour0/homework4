@@ -15,11 +15,11 @@ template <class T> T sum(T a, T b)
 
 int main()
 {
-    char op;
-    float a, b;
+    char op = 0;
+    float a = 0, b = 0;
     float ans;
     std::cout << "Enter Number you want to sum\n";
-    std::cout << "Ex : 2+3 = 5\n";
+    std::cout << "Ex : 2 + 3 = 5\n";
     while (!(std::cin >> a >> op >> b))
     {
         InputOnlyNum();
